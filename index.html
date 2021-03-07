@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <title>Sketchpad</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
-
-<body><main>
+<body>
+    <main>
         <aside class="toolbar" id="toolbar">
             <h1>Sketch!</h1>
             <div class="toolbar__pen-colors container">
@@ -88,7 +87,7 @@
             <div class="misc-actions-container">
                 <div class="grid-toggle-container">
                     <label for="grid-toggle">Grid</label>
-                    <input type="checkbox" id="grid-toggle">
+                    <input type="checkbox" id="grid-toggle"/>
                 </div>
                 <button class="action undo-btn" id="undo"><i class="fa fa-undo" aria-hidden="true"></i></button>
                 <button class="action trash-btn" id="trash"><i class="fa fa-trash" aria-hidden="true"></i></button>
@@ -102,8 +101,6 @@
         <div id="grid"></div>
     </main>
     <script src="script.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 </html>
